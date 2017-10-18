@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 *{
 	font-family: 'Noto Sans', sans-serif;	
+	outline: 1px solid  red;
 }
 header{
-	height: 80vh;
+	height: 100vh;
+	background:linear-gradient(right , rgba(68, 64, 65, 0.52) 0, rgba(101, 131, 112, 0.49) 50%), ;
+	background-image:url(../extra/house.jpg);
+	background-size: cover;
+	background-position:center right;
 }
 #nav{
 	padding: 10px;
@@ -17,21 +22,22 @@ header{
 
 }
 .header-frase-arlo{
-	color: white;
+	color: black;
 	margin-top: 10%;
+	margin-left: -5%;
 	font-size: 25px;
 }
 #span{
 	font-size:70px
 }
 .botones{
-	margin:20% 0 0 20%;
+	margin:1% 0 0 20%;
 }
 .btn{
 	background: rgb(24, 141, 78);
 	color: white;
-	padding: 10px 30px;
-	margin-left: 40px;
+	padding: 10px 30px ;
+	margin-left: 20px;
 }
 #video_background { 
 	position: absolute; 
@@ -55,7 +61,31 @@ header{
 	height: 100%; 
 	z-index: 1; 
 }
-#productos{
-	height: 40vh;
+#aplicacion{
+	height: 130vh;
+	background: url(../extra/arlo-phone.jpg);
+	background-size: cover;
+	background-position: center top;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
 }
+#descripcion{
+		background: rgba(248, 248, 248, 0.77);
+}
+#arlo{
+	height: 60vh;
+	width: 50%;
+	margin-top: 10vh;
+
+}
+#texto{
+	margin-top: 10vh;
+}
+.titulo{
+	color:rgb(24, 141, 78);
+}
+
+	
+
 

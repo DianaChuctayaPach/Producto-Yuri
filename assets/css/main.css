@@ -4,7 +4,7 @@
 	/* outline: 1px solid  red; */
 }
 header{
-	height: 100vh;
+	height: 90vh;
 	/* background:linear-gradient(right , hsla(345, 3%, 26%, 0.52) 0, rgba(101, 131, 112, 0.49) 50%), ; */
 	/* background-image:url(../extra/house.jpg); */
 	background-size: cover;
@@ -21,6 +21,10 @@ header{
 #logo{
 	margin-right:30px;
 }
+#logo{
+	background:transparent !important;
+	border: none !important;
+}
 #a{
 	color:black;
 	font-size: 20px;
@@ -32,24 +36,22 @@ header{
 	color: white;
 	margin-top: 5%;
 	margin-left: -5%;
-	font-size: 3vw;
+	font-size: 2.5vw;
 }
 #span{
 	font-size:7vw;
 }
 .botones{
-	margin:1% 0 0 20%;
-}
-.btn{
+	margin:0.5% 0 0 20%;
 	background:transparent;
 	color:rgb(248, 49, 56);
 	border-radius: 30px;
-	border:1px  solid rgb(248, 49, 56);
+	border: solid rgb(248, 49, 56);
 	padding: 1vw 4vw ;
 	margin-left: 20px;
-	font-size: 2.5vw;;
+	font-size: 2vw;
 }
-.btn:hover , :focus{
+.botones:hover , :focus{
 	background: #EF2F34;
 	color: white;
 	border: solid #EF2F34;
@@ -61,7 +63,7 @@ header{
 
 #aplicacion{
 	height: 100vh;
-	/* background: url(../extra/arlo-phone.jpg); */
+	background: url(../extra/fondo2.jpg);
 	/* background-color: #D2D2D3; */
 	background-size: cover;
 	background-position: center top;
@@ -100,17 +102,36 @@ header{
 i{
 	color: rgb(24, 141, 78);
 }
+#img-sec3{
+	margin-top: 50%;
+}
 footer{
-	background-color: #D2D2D3;
+	background-color:#666666;
     height: 90px;
-    padding-top: 20px;
+	padding-top: 20px;
+	/* color: rgb(131, 128, 128); */
 }
 #img-footer{
 	margin-left: 20px;
 }
 .footer__info{
 	padding-left: 250px;
-	color: rgba(0, 0, 0, 0.71);
+	color: rgb(31, 30, 30);
+}
+@media screen and (max-width: 700px) {
+	header{
+		height: 50vh;
+	}
+	#carrusel-img{
+		height: 50vh;
+	}
+	#flecha{
+		/* font-size:30px; */
+		font-weight: bold;
+		border-radius: 50px;
+		padding:20px 50px 50px 20px;
+		background:none;
+	  }
 }
 
 	

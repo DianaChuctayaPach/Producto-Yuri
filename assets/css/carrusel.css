@@ -1,0 +1,17 @@
+#container-fluid{
+  width: 100% !important;
+}
+#carrusel-img{
+  height: 90vh;
+}
+#flecha{
+  /* font-size:30px; */
+  font-weight: bold;
+  border-radius: 50px;
+  padding:20px 50px 50px 20px;
+  background: rgba(90, 41, 41, 0.774);
+}
+#a-carrusel{
+  background: transparent !important;
+  border: none;
+}

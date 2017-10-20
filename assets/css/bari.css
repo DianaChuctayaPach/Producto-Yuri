@@ -1,0 +1,35 @@
+#bari{
+    height: 90vh;
+    background-image: url(../extra/camaras-baby.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.texto-baby{
+    margin-top: 5%;
+    color: white;
+}
+.baby{
+    margin-left: 47%;
+    margin-top: 25%;
+    background: rgb(248, 49, 56) !important;
+    color: white;
+}
+#paty{
+    height: 50vh;
+    /* background-image: url(../extra/camera-paty.jpg); */
+    /* background: rgba(177, 159, 159, 0.781); */
+    background-size: cover;
+    background-position: center;
+}
+.texto-oficina{
+    margin-top: 5%;
+    color: black;
+}
+#oficina{
+    position: absolute;
+    margin-top: 10px;
+}
+.oficina{
+    margin-top: 5% !important;
+    margin-left:50% !important;
+}

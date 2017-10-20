@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Axis</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/producto3.css">
@@ -13,17 +14,156 @@
   </head>
   <body>
      <!-- mi codigo html -->
-   
+<!-- section #1-->
+  <section id="portada" class="responsive-img">
+    <header>
+      <nav class="#000000 black">
+        <div class="nav-wrapper ">
+        <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+          <span class=" nav-texto"> MENU</span>
+          <ul id="slide-out" class="side-nav #009688 teal" style="width: 100px !important; transform: translateX(0px);">
+            <li><a href="#!">First Sidebar Link</a></li>
+            <li><a href="#!">Second Sidebar Link</a></li>
+            <li><a href="#!">First Sidebar Link</a></li>
+            <li><a href="#!">Second Sidebar Link</a></li>
+          </ul>          
+        </div>
+      </nav>
+    </header>
+<!-- carrusel -->
+<div class="slider" >
+    <ul class="slides">
+      <li>
+        <img src="assets/img/cam-bebe-7.jpg" class="responsive-img" class="slides__img" > 
+        <div class="caption left-align" id="slides__div1">          
+              <h3 class="caption__h3">La seguridad de tus bebes</h3>
+              <h5 class="dark pink-text text-teal lighten-2" class="caption__h5">En tus manos.</h5>              
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/cam-bebe-3.jpg" class="responsive-img" class="slides__img"> <!-- random image -->
+        <div class="caption right-align" id="slides__div2">
+          <h3 class="caption__h3">La seguridad de tus bebes</h3>
+          <h5 class="dark pink-text text-teal lighten-2" class="caption__h5">En tus manos.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/cam-bebe-4.jpg" class="responsive-img" class="slides__img"> <!-- random image -->
+        <div class="caption center-align" id="slides__div3">
+          <h3 class="caption__h3">La seguridad de tus bebes</h3>
+          <h5 class="dark pink-text text-teal lighten-2" class="caption__h5">En tus manos.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+<!-- SECCION #3 -->
+  <hr>
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/img/venta-2.jpg" width="200">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/img/venta-1.jpg" width="200">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/img/venta-3.jpg" width="200">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/img/venta-4.jpg" width="200">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/img/venta-5.jpg" width="200">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/img/venta-6.jpg" width="200">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/img/venta-7.jpg" width="200">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/img/venta-8.jpg" width="200">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
 
-
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="assets/js/app.js"></script>
   </body>
 </html>

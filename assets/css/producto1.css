@@ -1,1 +1,77 @@
-/*font-family: 'Lato', sans-serif;*/
+ 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+}
+.imagen{
+/*    width: 100%;*/
+   height: 90vh;
+    background:url("http://www.tp-link.com/res/images/overview/N200/mobile/b_1.jpg");
+    background-size: cover;
+    background-position: center top;
+    color: white;
+}
+#fondo{
+   background:rgba(32,23,3,0.4);
+    width:100%;
+    height:90vh;
+    text-align: center;
+    /*color:#fff;    */
+    font-family: 'Raleway', sans-serif;
+}
+.camara-hogar{
+     height: 100vh;
+    background:url("https://cnet4.cbsistatic.com/img/5D2RCwvKyJXOa2UzyHSvpzR-6DE=/620x0/2014/01/03/dfb3477a-84ca-11e3-beb9-14feb5ca9861/2013-11-29-6440.163-c.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 20%;
+}
+.text h1{
+    margin-top: 40%;
+    color: white;
+    font-size:40px;
+   font-weight: bold; 
+
+}
+.text p{
+    
+    color: white;
+    font-size:25px;
+
+  /* font-weight: bold; */
+
+}
+button{
+    padding: 20px 25px;
+    background:transparent;
+    border:solid #ed2251 ;
+    border-radius: 20px;
+}
+button:hover{
+    padding: 20px 25px;
+    background:rgba(32,23,3,0.4);
+    border:solid #ed2251 ;
+    border-radius: 20px;
+}
+.section-responsive{
+    background-color: black;
+}
+@media (max-width:1100px ){
+    .camara-hogar{
+    background-size: 80%;
+    height: 95vh;
+    }
+    h1{
+        margin-top: -700px;
+    }
+    p{
+        margin-top: -180%;    
+    }
+
+}

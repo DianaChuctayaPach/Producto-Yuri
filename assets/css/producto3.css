@@ -1,1 +1,25 @@
 /*font-family: 'Lato', sans-serif;*/
+*{
+/*	outline: 1px solid red;
+*/}
+.slides__img{
+	background-size: cover;
+  	background-position:bottom;
+  	height: 700px;
+}
+.caption__h3{
+	color: black;
+}
+.caption__h5{
+	color: red;
+}
+.slider .slides li #slides__div1, #slides__div2, #slides__div3{
+    color: #fff !important;
+    position: absolute !important;
+    top: 30% !important;
+    left: 24% !important;
+    width: 50% !important;
+    padding: 40px !important;
+    background-color: rgba(110, 100, 100, 0.6) !important;
+    height: 300px !important;
+}

@@ -1,1 +1,42 @@
 /*font-family: 'Lato', sans-serif;*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.my_section .flex-container {
+    background-image: url(../img/635247852.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.my_class {
+    background-color: rgba(0, 0, 0, 0.38);
+    color: white;
+    height: 600px;
+    width: 104%;
+}
+.my_texto {  margin-top: 10%;}
+.my_texto p { 
+    font-size: 16px;
+    /* color: black; */
+}
+.my_texto h2 {
+    font-size: 35px;
+    /* color: black; */
+}
+.my_texto .linia {
+    height: 4px;
+    width: 100%;
+    color: white;
+}
+
+button {
+    margin-top: 4%;
+    padding: 20px 30px;
+    background: transparent;
+    border:solid #f83746;
+    border-radius:20px;
+    font-size: 20px;
+}

@@ -1,5 +1,7 @@
 /*font-family: 'Lato', sans-serif;*/
 
+/* icicio estilo de luisa */
+
 body {
     margin: 0;
     padding: 0;
@@ -33,6 +35,10 @@ body {
 }
 
 /*----- boton --- y --- sus ---- imagenes ---- de ----menu */
+ img {
+    border-style: double;
+    color: red;
+}
 
 .sidenav {
     height: 100%;
@@ -49,17 +55,12 @@ body {
 }
 
 .sidenav img {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .sidenav a:hover{
     color: #f1f1f1;
 }
-
-/* #mySidenav .closebtn {
-    height: 80px;
-    width: 100%;
-} */
 
 .sidenav .closebtn {
     position: absolute;
@@ -82,3 +83,6 @@ button {
     border-radius:20px;
     font-size: 20px;
 }
+
+/* fin de estilo luisa */
+

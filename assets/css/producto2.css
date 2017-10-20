@@ -1,0 +1,89 @@
+
+/*font-family: 'Lato', sans-serif;*/
+
+/* icicio estilo de luisa */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.my_section .flex-container {
+    background-image: url(../img/635247852.jpg);
+    background-size: cover;
+    height: 660px;
+    width: 100%;
+}
+.my_class {
+    background-color: rgba(0, 0, 0, 0.38);
+    color: white;
+    height: 660px;
+    width: 101%;
+}
+.my_texto {  margin-top: 10%;}
+.my_texto p { 
+    font-size: 16px;
+    /* color: black; */
+}
+.my_texto h2 {
+    font-size: 35px;
+    /* color: black; */
+}
+.my_texto .linia {
+    height: 4px;
+    width: 100%;
+    color: white;
+}
+
+/*----- boton --- y --- sus ---- imagenes ---- de ----menu */
+ img {
+    border-style: double;
+    color: red;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+    text-align:center;
+}
+
+.sidenav img {
+    margin-top: 2%;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+button {
+    margin-top: 4%;
+    padding: 20px 30px;
+    background: transparent;
+    border:solid #f83746;
+    border-radius:20px;
+    font-size: 20px;
+}
+
+/* fin de estilo luisa */
+

@@ -1,3 +1,13 @@
+#yudith{
+    height: 50vh;
+}
+.texto-house{
+    color: black;
+}
+.house{
+    margin-top: 10%;
+    /* margin-top: -30% ; */
+}
 #bari{
     height: 90vh;
     background-image: url(../extra/camaras-baby.jpg);
